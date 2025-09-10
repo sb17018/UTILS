@@ -6,3 +6,5 @@ Tomcat/*
 !Tomcat/src
 # ... and a file pom.xml
 !Tomcat/pom.xml
+# ... and a file README.md
+!Tomcat/README.md
