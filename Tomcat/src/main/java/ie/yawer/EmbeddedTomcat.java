@@ -23,7 +23,8 @@ public class EmbeddedTomcat {
         tomcat.setHostname(HOST_NAME);
 
         // Creates folder to get context path to tomcat
-        File docBase = new File(NAME_OF_FILE_CREATED_TO_GET_CONTEXT );
+        File docBase = new File(NAME_OF_FILE_CREATED_TO_GET_CONTEXT);
+        docBase.mkdir();
         Context context = tomcat.addContext("", docBase.getAbsolutePath());
 
         Tomcat.addServlet(context, SERVLET_NAME, new HelloServlet());
