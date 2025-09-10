@@ -1,0 +1,8 @@
+### SOUND ###
+
+# To ignore everything inside Sound ...
+Sound/*
+# ... except subfolder src/ ...
+!Sound/src
+# ... and a file pom.xml
+!Sound/pom.xml
