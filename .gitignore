@@ -1,0 +1,8 @@
+### TOMCAT ###
+
+# To ignore everything inside Tomcat ...
+Tomcat/*
+# ... except subfolder src/ ...
+!Tomcat/src
+# ... and a file pom.xml
+!Tomcat/pom.xml
