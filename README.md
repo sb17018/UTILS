@@ -1,5 +1,5 @@
 # *Audio area of Java - javax.sound.midi - used for producing (! not playing audio file) sound*
-### When run, 3 keys are rendered, which produce sounds when clicked 
+### When run, keys are rendered in amount defined in settings (here 26), which produce sounds when clicked 
 
 #### After building a jar file it can be run either by [1.] CMD or by [2.] double-click of the jar file.
 > *`NOTE:`*
@@ -10,3 +10,4 @@
 ### *Concepts used:*
 - Audio - javax.sound.midi
 - GUI - javax.swing, java.awt
+- Separation audio and GUI generations into separate classes.
