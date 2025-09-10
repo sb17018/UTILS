@@ -10,4 +10,4 @@
 ### *Concepts used:*
 - Audio - javax.sound.midi
 - GUI - javax.swing, java.awt
-- Separation audio and GUI generations into separate classes.
+- Separation audio generation class from GUI generation class
